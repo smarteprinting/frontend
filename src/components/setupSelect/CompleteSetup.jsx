@@ -21,7 +21,7 @@ const brandConfigs = {
   },
   Brother: {
     logo: "/brother-bg.png",
-    printerImg: "/brother-bg-image-bg.png",
+    printerImg: "/brother-printer-software.png",
     bgImage: "/brother-not-bg.png",
     installButtonBgColor: "bg-blue-950",
     installButtonTextColor: "text-white",
@@ -136,11 +136,7 @@ function CompleteSetup() {
               <button
                 className={`${config.installButtonBgColor} ${config.installButtonTextColor} font-semibold px-7 py-3 rounded-full text-lg shadow hover:${config.installButtonHoverColor} transition mb-6 w-fit`}
                 onClick={() => {
-                  if (issue === 'Set Up a New Printer') {
-                    setShowFinalStep(true);
-                  } else {
-                    setShowModal(true);
-                  }
+                  setShowModal(true);
                 }}
               >
                 Install {brand ? brand + ' ' : ''}Smart App

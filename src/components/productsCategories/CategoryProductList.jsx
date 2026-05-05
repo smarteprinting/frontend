@@ -44,9 +44,9 @@ const CategoryProductList = ({ categoryName, heading, enableFlowLayout = false }
     // Use cached products for instant display while API loads
     const hasFilters = sort || brand || technology || usageCategory.length || allInOneType || wireless || mainFunction.length;
     const cachedCategoryProducts = (!hasFilters && allProductsCache?.loaded)
-        ? allProductsCache.products.filter(p =>
-            p.category && (p.category.name || '').toLowerCase() === categoryName.toLowerCase()
-        )
+        ? (categoryName 
+            ? allProductsCache.products.filter(p => p.category && (p.category.name || '').toLowerCase() === categoryName.toLowerCase())
+            : allProductsCache.products)
         : null;
 
     const safeProducts = Array.isArray(products) && products.length > 0

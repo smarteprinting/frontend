@@ -37,7 +37,7 @@ export const prefetchAllProducts = () => async (dispatch, getState) => {
         dispatch({ type: PRODUCT_PREFETCH_REQUEST });
 
         const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/products`, {
-            params: { limit: 1000, page: 1 }
+            params: { limit: 20, page: 1 }
         });
 
         dispatch({
