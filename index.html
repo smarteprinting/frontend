@@ -64,7 +64,7 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/favicon.png" />
     <link rel="shortcut icon" href="/favicon.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
 
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
@@ -93,6 +93,8 @@
     <script>
         // Defer JivoChat until after page is interactive
 
+        // JivoChat script disabled until a valid widget ID is provided
+        /*
         if ('requestIdleCallback' in window) {
             requestIdleCallback(function() {
                 var s = document.createElement('script');
@@ -108,6 +110,7 @@
                 document.body.appendChild(s);
             }, 3000);
         }
+        */
     </script>
 </body>
 
