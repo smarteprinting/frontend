@@ -9,6 +9,7 @@ function ProductsBanner({ desktopImage, mobileImage, altText = "Products Banner"
                 src={desktopImage || "/assets/printerforsmallbusiness.png"}
                 alt={altText}
                 className="hidden md:block w-full h-auto"
+                fetchpriority="high"
             />
 
             {/* Mobile Image: Block on mobile, hidden on md and up */}
@@ -16,6 +17,7 @@ function ProductsBanner({ desktopImage, mobileImage, altText = "Products Banner"
                 src={mobileImage || "/assets/printer.webp"}
                 alt={altText}
                 className="block md:hidden w-full h-auto"
+                fetchpriority="high"
             />
         </div>
     );
