@@ -17,11 +17,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        smartPrinterSetupGuide: resolve(__dirname, 'smart-printer-setup-guide.html'),
-        modelSearch: resolve(__dirname, 'model-search.html'),
-        completeSetup: resolve(__dirname, 'complete-setup.html'),
-        installationFailed: resolve(__dirname, 'installation-failed.html'),
-        selectYourBrand: resolve(__dirname, 'select-your-brand.html'),
+
         allInOnePrinters: resolve(__dirname, 'all-in-one-printers.html'),
         inkjetPrinters: resolve(__dirname, 'inkjet-printers.html'),
         laserPrinters: resolve(__dirname, 'laser-printers.html'),
