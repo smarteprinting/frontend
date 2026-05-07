@@ -6,7 +6,7 @@ function ProductsBanner({ desktopImage, mobileImage, altText = "Products Banner"
         <div className="w-full relative mb-8">
             {/* Desktop Image: Hidden on mobile, block on md and up */}
             <img
-                src={desktopImage || "/assets/printerforsmallbusiness.png"}
+                src={desktopImage || "/assets/printerforsmallbusiness.webp"}
                 alt={altText}
                 width="1200"
                 height="450"

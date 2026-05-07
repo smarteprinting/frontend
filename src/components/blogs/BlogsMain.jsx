@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowRight, Printer } from 'lucide-react';
-const smallbusiness = "/assets/printerforsmallbusiness.png";
-const savecosts = "/assets/savemoney.png";
-const printingmistakes = "/assets/top7Printingmistakes.png";
-const printermaintenance = "/assets/printersmaintenence.png";
-const printerguide = "/assets/ultimateguide.png";
+const smallbusiness = "/assets/printerforsmallbusiness.webp";
+const savecosts = "/assets/savemoney.webp";
+const printingmistakes = "/assets/top7Printingmistakes.webp";
+const printermaintenance = "/assets/printersmaintenence.webp";
+const printerguide = "/assets/ultimateguide.webp";
 
 
 const BlogsMain = () => {

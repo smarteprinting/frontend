@@ -8,7 +8,7 @@ import ProductsBanner from '../ProductsBanner'
 function LaserPrinters() {
     return (
         <>
-            <ProductsBanner desktopImage="/laserBanner.png" mobileImage="/laserBannerMobile.png" />
+            <ProductsBanner desktopImage="/laserBanner.webp" mobileImage="/laserBannerMobile.webp" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

@@ -1,8 +1,8 @@
 import React from "react";
-const aboutUsHero = "/assets/aboutUsHero.png";
-const whoweare = "/assets/whoweare.png";
-const inktoner = "/assets/inktoner.png";
-const printingacceseries = "/assets/printingacceseries.png";
+const aboutUsHero = "/assets/aboutUsHero.webp";
+const whoweare = "/assets/whoweare.webp";
+const inktoner = "/assets/inktoner.webp";
+const printingacceseries = "/assets/printingacceseries.webp";
 const printer = "/assets/printer.webp";
 
 const AboutContent = () => {

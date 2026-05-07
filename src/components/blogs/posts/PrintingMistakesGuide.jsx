@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, AlertTriangle, CheckCircle2, FileText, Smartphone, Ban, Settings, ThermometerSun } from 'lucide-react';
-const printingmistakes = "/assets/top7Printingmistakes.png";
+const printingmistakes = "/assets/top7Printingmistakes.webp";
 
 const PrintingMistakesGuide = () => {
     return (

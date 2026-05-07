@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
-import allInOneImg from "/all.jpg";
-import inkjetImg from "/inkjet_printer.png";
-import laserImg from "/laser.png";
-import inkTonerImg from "/inkandtoner.png";
-import defaultPrinterImg from "/assets/printer.png";
+import allInOneImg from "/all.webp";
+import inkjetImg from "/inkjet_printer.webp";
+import laserImg from "/laser.webp";
+import inkTonerImg from "/inkandtoner.webp";
+import defaultPrinterImg from "/assets/printer.webp";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";

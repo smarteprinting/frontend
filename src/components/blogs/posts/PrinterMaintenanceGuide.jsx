@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, CheckCircle2, AlertCircle, Wrench, Settings, Droplet } from 'lucide-react';
-const printermaintenence = "/assets/printersmaintenence.png";
+const printermaintenence = "/assets/printersmaintenence.webp";
 
 const PrinterMaintenanceGuide = () => {
     return (

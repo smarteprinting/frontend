@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, Briefcase, TrendingUp, Printer, Layout, ShieldCheck, Zap, Settings, Smartphone } from 'lucide-react';
-const smallbusiness = "/assets/printerforsmallbusiness.png";
+const smallbusiness = "/assets/printerforsmallbusiness.webp";
 
 const SmallBusinessPrintingGuide = () => {
     return (

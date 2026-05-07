@@ -9,7 +9,7 @@ function AllInOne() {
     return (
         <>
 
-            <ProductsBanner desktopImage="/all_in_one_chatgpt.png" mobileImage="/all_in_one_mobile.png" />
+            <ProductsBanner desktopImage="/all_in_one_chatgpt.webp" mobileImage="/all_in_one_mobile.webp" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

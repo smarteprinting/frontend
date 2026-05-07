@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, DollarSign, BatteryCharging, Settings, FileText, CheckCircle2, Zap, AlertCircle } from 'lucide-react';
-const savecosts = "/assets/savemoney.png";
+const savecosts = "/assets/savemoney.webp";
 
 const SavePrintingCostsGuide = () => {
     return (

@@ -9,7 +9,7 @@ function InkjetPrinters() {
     return (
         <>
 
-            <ProductsBanner desktopImage="/inkjetBanner.png" mobileImage="/inkjetBannerMobile.png" />
+            <ProductsBanner desktopImage="/inkjetBanner.webp" mobileImage="/inkjetBannerMobile.webp" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

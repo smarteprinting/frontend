@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, Tag, Printer, CheckCircle2, AlertCircle } from 'lucide-react';
-const printerguide = "/assets/ultimateguide.png";
+const printerguide = "/assets/ultimateguide.webp";
 
 const ChoosingPrinterGuide = () => {
     return (
