@@ -82,7 +82,7 @@ const Header = () => {
     const handleSuggestionClick = (suggestion) => {
         setIsSearchOpen(false);
         setShowSuggestions(false);
-        
+
         if (suggestion.slug) {
             navigate(`/product/${suggestion.slug}`);
         } else {
@@ -159,7 +159,7 @@ const Header = () => {
                                     className="h-12 md:h-16 w-auto object-contain"
                                     width="177"
                                     height="112"
-                                    fetchpriority="high"
+
                                 />
                             </Link>
 
@@ -438,9 +438,9 @@ const Header = () => {
                                                 onClick={() => handleSuggestionClick(suggestion)}
                                             >
                                                 <div className="w-12 h-12 bg-white rounded-lg overflow-hidden shrink-0 border border-slate-200 p-1">
-                                                    <img 
-                                                        src={suggestion.images && suggestion.images[0] ? (suggestion.images[0].startsWith('http') ? suggestion.images[0] : `${import.meta.env.VITE_API_URL.replace('/api', '')}${suggestion.images[0]}`) : '/assets/printer.webp'} 
-                                                        alt={suggestion.title} 
+                                                    <img
+                                                        src={suggestion.images && suggestion.images[0] ? (suggestion.images[0].startsWith('http') ? suggestion.images[0] : `${import.meta.env.VITE_API_URL.replace('/api', '')}${suggestion.images[0]}`) : '/assets/printer.webp'}
+                                                        alt={suggestion.title}
                                                         className="w-full h-full object-contain"
                                                     />
                                                 </div>

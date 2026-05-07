@@ -28,7 +28,7 @@ const Hero = () => {
                             className="w-full max-w-md object-contain"
                             width={500}
                             height={500}
-                            fetchPriority="high"
+
                         />
                     </div>
 
