@@ -8,6 +8,8 @@ function ProductsBanner({ desktopImage, mobileImage, altText = "Products Banner"
             <img
                 src={desktopImage || "/assets/printerforsmallbusiness.png"}
                 alt={altText}
+                width="1200"
+                height="450"
                 className="hidden md:block w-full h-auto"
                 fetchpriority="high"
             />
@@ -16,6 +18,8 @@ function ProductsBanner({ desktopImage, mobileImage, altText = "Products Banner"
             <img
                 src={mobileImage || "/assets/printer.webp"}
                 alt={altText}
+                width="721"
+                height="1262"
                 className="block md:hidden w-full h-auto"
                 fetchpriority="high"
             />
