@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
-import allInOneImg from "../../../public/assets/allone.png";
-import inkjetImg from "../../../public/assets/inkjet.png";
-import laserImg from "../../../public/assets/laser.jpg";
-import inkTonerImg from "../../../public/assets/inktoner.png";
-import defaultPrinterImg from "../../../public/assets/printer.webp";
+import allInOneImg from "/all.jpg";
+import inkjetImg from "/inkjet_printer.png";
+import laserImg from "/laser.png";
+import inkTonerImg from "/inkandtoner.png";
+import defaultPrinterImg from "/assets/printer.png";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
@@ -51,15 +51,15 @@ const CategoryScrollSection = () => {
     };
 
     if (loading) {
-      return (
-        <div className="flex justify-center items-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
-        </div>
-      );
+        return (
+            <div className="flex justify-center items-center py-12">
+                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
+            </div>
+        );
     }
 
     if (error) {
-        return null; 
+        return null;
     }
 
     return (
@@ -119,9 +119,9 @@ const CategoryScrollSection = () => {
                                 >
                                     {/* Image */}
                                     <div className="aspect-square bg-gray-100 rounded-lg flex items-center justify-center mb-4 overflow-hidden">
-                                        <img 
+                                        <img
                                             src={getCategoryImage(item.name, item.image)}
-                                            alt={displayName} 
+                                            alt={displayName}
                                             className="w-full h-full object-contain p-2"
                                             loading="lazy"
                                             onError={(e) => { e.target.src = defaultPrinterImg; }}

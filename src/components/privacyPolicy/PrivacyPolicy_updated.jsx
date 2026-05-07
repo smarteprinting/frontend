@@ -12,9 +12,9 @@ const PrivacyPolicy = () => {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-black bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent mb-4">
+          <h2 className="text-4xl sm:text-5xl font-black bg-gradient-to-r from-orange-600 to-blue-600 bg-clip-text text-transparent mb-4">
             Privacy Policy
-          </h1>
+          </h2>
           <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-blue-600 rounded-full mx-auto my-4"></div>
           <p className="text-slate-600 text-sm font-medium uppercase tracking-widest">SMART EPRINTING</p>
           <p className="text-slate-700 mt-2 text-xs">Last Updated: January 31, 2026</p>

@@ -3,10 +3,13 @@ import ProductRouteHeading from '../ProductRouteHeading'
 import CategoryScrollSection from '../CategoryScrollSection'
 import AllInOneProductList from './AllInOneProductList'
 import FeaturesSection from '../FeaturesSection'
+import ProductsBanner from '../ProductsBanner'
 
 function AllInOne() {
     return (
         <>
+
+            <ProductsBanner desktopImage="/all_in_one_chatgpt.png" mobileImage="/all_in_one_mobile.png" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

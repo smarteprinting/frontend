@@ -3,7 +3,7 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <section className="w-full bg-gradient-to-br from-slate-50 via-white to-blue-50/20 min-h-screen py-16">
-      
+
       {/* Background Patterns */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-orange-200/10 to-transparent rounded-full blur-3xl"></div>
@@ -14,9 +14,9 @@ const PrivacyPolicy = () => {
 
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl text-gray-900  mb-4">
+          <h2 className="text-4xl sm:text-5xl text-gray-900  mb-4">
             Privacy Policy
-          </h1>
+          </h2>
           <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-blue-600 rounded-full mx-auto my-4"></div>
           <p className="text-slate-600 text-sm font-medium uppercase tracking-widest">PRIVACY POLICY</p>
           <p className="text-slate-700 mt-2 text-xs text-center">Last Updated: January 31, 2026</p>
@@ -27,13 +27,13 @@ const PrivacyPolicy = () => {
           {/* 1. Who We Are */}
           <div className="bg-gradient-to-br from-white to-blue-50/30 rounded-3xl p-6 md:p-8 shadow-lg shadow-blue-100/30 border-2 border-slate-100 space-y-4 backdrop-blur-sm">
             <h2 className="text-2xl font-semibold text-gray-900">1. Who We Are</h2>
-              <p className="text-gray-600 leading-relaxed">
-                Smart ePrinting<br />
-                Address: 17807 Lakecrest View Drive, #1205, Cypress, TX 77433<br />
-                Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br />
-                Website: <a href="https://www.smarteprinting.com" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">www.smarteprinting.com</a><br />
-                Smart ePrinting is an independent online retailer of printers and printing supplies. We are not affiliated with, authorized by, or endorsed by any printer manufacturer. All trademarks belong to their respective owners.
-              </p>
+            <p className="text-gray-600 leading-relaxed">
+              Smart ePrinting<br />
+              Address: 17807 Lakecrest View Drive, #1205, Cypress, TX 77433<br />
+              Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br />
+              Website: <a href="https://www.smarteprinting.com" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">www.smarteprinting.com</a><br />
+              Smart ePrinting is an independent online retailer of printers and printing supplies. We are not affiliated with, authorized by, or endorsed by any printer manufacturer. All trademarks belong to their respective owners.
+            </p>
           </div>
 
           {/* 2. Information We Collect */}

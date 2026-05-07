@@ -3,10 +3,13 @@ import ProductRouteHeading from '../ProductRouteHeading'
 import CategoryScrollSection from '../CategoryScrollSection'
 import InkjetPrintersProductList from './InkjetPrintersProductList'
 import FeaturesSection from '../FeaturesSection'
+import ProductsBanner from '../ProductsBanner'
 
 function InkjetPrinters() {
     return (
         <>
+
+            <ProductsBanner desktopImage="/inkjetBanner.png" mobileImage="/inkjetBannerMobile.png" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

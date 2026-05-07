@@ -7,9 +7,9 @@ const CCPAPrivacyPolicy = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Do Not Sell or Share My Personal Information (CCPA/CPRA) — Smart ePrinting
-          </h1>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Do Not Sell or Share My Personal Information (CCPA/CPRA)
+          </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
             Last Updated: January 31, 2026
           </p>
@@ -76,7 +76,7 @@ const CCPAPrivacyPolicy = () => {
               Even though we do not sell or share personal information, you may submit a request:
             </p>
             <p className="text-gray-600 leading-relaxed">
-              📧 Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br/>
+              📧 Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br />
               Subject Line: CCPA Privacy Request
             </p>
             <p className="text-gray-600 leading-relaxed">

@@ -9,9 +9,9 @@ const Hero = () => {
 
                     {/* Left Text Content */}
                     <div className="flex-1 text-center md:text-left min-h-[200px] sm:min-h-[240px]">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                             Smart Printing Made Simple
-                        </h1>
+                        </h2>
                         <p className="mt-4 text-gray-700 text-lg sm:text-xl md:text-2xl">
                             Discover reliable printers, ink, toner, and essential printing supplies for home and office needs. At Smart ePrinting, we make it easy to find trusted products through clear descriptions, secure checkout, and a customer-focused shopping experience.
                         </p>

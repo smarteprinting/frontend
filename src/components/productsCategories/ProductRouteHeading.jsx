@@ -10,9 +10,9 @@ const ProductRouteHeading = ({
             <div className="max-w-7xl mx-auto px-4 py-16 md:py-20 text-center">
 
                 {/* Title */}
-                <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">
+                <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
                     {title}
-                </h1>
+                </h2>
 
                 {/* Breadcrumbs */}
                 <nav className="mt-4 text-sm text-gray-500 flex justify-center flex-wrap items-center">

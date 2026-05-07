@@ -7,9 +7,9 @@ const AccessibilityStatement = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Accessibility Statement — Smart ePrinting
-          </h1>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Accessibility Statement
+          </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
             Last Updated: January 31, 2026
           </p>
@@ -116,8 +116,8 @@ const AccessibilityStatement = () => {
               If you experience accessibility barriers or need help accessing content, please contact us:
             </p>
             <p className="text-gray-600 leading-relaxed">
-              📧 Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br/>
-              📍 Address: 17807 Lakecrest View Drive, #1205, Cypress, TX 77433<br/>
+              📧 Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a><br />
+              📍 Address: 17807 Lakecrest View Drive, #1205, Cypress, TX 77433<br />
               🌐 Website: <a href="https://www.smarteprinting.com" target="_blank" rel="noopener noreferrer" className="text-indigo-600 underline">www.smarteprinting.com</a>
             </p>
             <p className="text-gray-600 leading-relaxed">
@@ -195,10 +195,10 @@ const AccessibilityStatement = () => {
               For accessibility-related questions or support:
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Smart ePrinting<br/>
-              17807 Lakecrest View Drive, #1205<br/>
-              Cypress, TX 77433<br/>
-              United States<br/>
+              Smart ePrinting<br />
+              17807 Lakecrest View Drive, #1205<br />
+              Cypress, TX 77433<br />
+              United States<br />
               📧 Email: <a href="mailto:support@smarteprinting.com" className="text-indigo-600 underline">support@smarteprinting.com</a>
             </p>
           </div>

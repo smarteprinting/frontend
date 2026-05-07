@@ -3,10 +3,12 @@ import ProductRouteHeading from '../ProductRouteHeading'
 import CategoryScrollSection from '../CategoryScrollSection'
 import LaserPrintersProductList from './LaserPrintersProductList'
 import FeaturesSection from '../FeaturesSection'
+import ProductsBanner from '../ProductsBanner'
 
 function LaserPrinters() {
     return (
         <>
+            <ProductsBanner desktopImage="/laserBanner.png" mobileImage="/laserBannerMobile.png" />
             <ProductRouteHeading
                 breadcrumbs={[
                     { label: "Home", link: "/" },

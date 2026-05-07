@@ -8,9 +8,9 @@ const ReturnExchangePolicy = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Return & Exchange Policy — Smart ePrinting
-          </h1>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Return & Exchange Policy
+          </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
             Last Updated: January 31, 2026
           </p>
@@ -25,7 +25,7 @@ const ReturnExchangePolicy = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-gray-900">1. 30-Day Return Window</h2>
             <p className="text-gray-600 leading-relaxed">You may return eligible items within 30 days of delivery.</p>
-            
+
             <p className="text-gray-600 font-medium">✔ Eligible Items</p>
             <ul className="list-disc list-inside text-gray-600 space-y-1">
               <li>Unopened printers</li>
@@ -64,7 +64,7 @@ const ReturnExchangePolicy = () => {
             </ul>
           </div>
 
-          
+
 
           <ReturnExchangeForm />
 

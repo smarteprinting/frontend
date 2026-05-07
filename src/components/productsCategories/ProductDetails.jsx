@@ -39,16 +39,8 @@ const ProductDetails = () => {
     const productList = useSelector((state) => state.productList);
     const { products: fetchedRelated } = productList;
 
-    // Use cached products for related items if available
-    const relatedProducts = (() => {
-        if (product && product.category && allProductsCache?.loaded) {
-            const catName = (product.category.name || product.category).toLowerCase();
-            return allProductsCache.products.filter(p =>
-                p.category && (p.category.name || p.category).toString().toLowerCase() === catName
-            );
-        }
-        return fetchedRelated;
-    })();
+    // Use fetchedRelated for related products, as the cache is limited to 20 items
+    const relatedProducts = fetchedRelated;
 
     useEffect(() => {
         const checkEligibility = async () => {
@@ -75,11 +67,11 @@ const ProductDetails = () => {
     }, [dispatch, productSlug]);
 
     useEffect(() => {
-        if (product && product.category && !allProductsCache?.loaded) {
+        if (product && product.category) {
             const categoryName = product.category.name || product.category;
             dispatch(listProducts('', categoryName, 1));
         }
-    }, [dispatch, product, allProductsCache?.loaded]);
+    }, [dispatch, product]);
 
     const addToCartHandler = () => {
         if (!userInfo) {
@@ -273,9 +265,9 @@ const handleWriteReview = () => {
                                 <span className="text-rose-500 text-[9px] font-black uppercase tracking-widest">Out of Stock</span>
                             )}
                         </div>
-                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 leading-tight tracking-tight uppercase">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 leading-tight tracking-tight uppercase">
                             {product.title}
-                        </h1>
+                        </h2>
                     </div>
 
                     {/* Short Details */}

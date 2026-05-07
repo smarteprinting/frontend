@@ -12,9 +12,9 @@ const TermsAndConditions = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Terms & Conditions — Smart ePrinting
-          </h1>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Terms & Conditions
+          </h2>
           <p className="mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
             Last Updated: January 31, 2026
           </p>
