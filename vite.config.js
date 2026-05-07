@@ -22,6 +22,13 @@ export default defineConfig({
         completeSetup: resolve(__dirname, 'complete-setup.html'),
         installationFailed: resolve(__dirname, 'installation-failed.html'),
         selectYourBrand: resolve(__dirname, 'select-your-brand.html'),
+        allInOnePrinters: resolve(__dirname, 'all-in-one-printers.html'),
+        inkjetPrinters: resolve(__dirname, 'inkjet-printers.html'),
+        laserPrinters: resolve(__dirname, 'laser-printers.html'),
+        inkToner: resolve(__dirname, 'ink-toner.html'),
+        blogs: resolve(__dirname, 'blogs.html'),
+        customerService: resolve(__dirname, 'customer-service.html'),
+        about: resolve(__dirname, 'about.html'),
       },
       output: {
         manualChunks: {
