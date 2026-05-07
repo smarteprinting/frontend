@@ -349,7 +349,7 @@ const handleWriteReview = () => {
                     </div>
 
                     {/* Key Specifications - Custom UI */}
-                    {(product.technology || product.mainFunction || product.wireless || product.shortSpecification) && (
+                    {((Array.isArray(product.technology) && product.technology.length > 0) || (Array.isArray(product.mainFunction) && product.mainFunction.length > 0) || (product.wireless && product.wireless !== '') || product.shortSpecification) && (
                         <div className="space-y-3">
                             <div className="flex flex-col md:flex-row gap-2 border-t border-slate-100 pt-4">
                                 {Array.isArray(product.technology) && product.technology.length > 0 && (
@@ -362,7 +362,7 @@ const handleWriteReview = () => {
                                         Main Function: {product.mainFunction.join(', ')}
                                     </div>
                                 )}
-                                {product.wireless && (
+                                {product.wireless && product.wireless !== '' && (
                                     <div className="bg-slate-50 border border-slate-200 rounded-xl px-4 py-2 text-xs font-semibold text-slate-900">
                                         Wireless: {product.wireless}
                                     </div>
