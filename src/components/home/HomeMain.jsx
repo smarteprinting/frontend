@@ -47,7 +47,7 @@ const HomeMain = () => {
     return (
         <>
             <Hero />
-            <WelcomeSection />
+            {/* <WelcomeSection /> */}
             <Home />
             <WhyChooseSection />
             <OurPromiseSection />
