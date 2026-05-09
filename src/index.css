@@ -10,9 +10,11 @@ body {
     h1 {
         @apply text-3xl sm:text-4xl md:text-5xl font-extrabold !important;
     }
+
     h2 {
         @apply text-2xl sm:text-3xl md:text-4xl font-bold !important;
     }
+
     p {
         @apply text-base sm:text-lg leading-relaxed !important;
     }
@@ -25,9 +27,12 @@ body {
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
@@ -35,4 +40,4 @@ body {
 
 .animate-float {
     animation: float 6s ease-in-out infinite;
-}
+}
